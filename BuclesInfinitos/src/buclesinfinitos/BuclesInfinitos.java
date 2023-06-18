@@ -12,6 +12,7 @@ public class BuclesInfinitos
         boolean cintinela = true;
       
         System.out.println("Bucle infinito.");
+        System.out.println("");
         while (cintinela == true) 
         {            
             System.out.println("Estoy en la vuelta " + cintinela);
