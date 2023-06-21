@@ -15,9 +15,10 @@ public class Ejercico1Vector
       
        Scanner teclado = new Scanner(System.in);  
         
+       //Cargar y comparar nuestro vector
         for (int i = 0; i < vector.length; i++) 
         {
-           System.out.print("Por favor Ingrese Número: ");           
+           System.out.print("Por favor Ingrese Números para el vector: ");           
            vector [i] = teclado.nextInt();
            
             if (vector[i] == 3) 
@@ -26,7 +27,7 @@ public class Ejercico1Vector
             }
         }
         
-        System.out.println("El numero 3 se repite: " + contador);
+        System.out.println("La cantidad de números 3 que hay en el vector es: " + contador);
         
         System.out.println("Fin del Programa!");
     }
