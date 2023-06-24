@@ -61,6 +61,11 @@ public class AjerccioLogicaMaraton
           System.out.print("Ingrese Edad                : ");
           edad = tecladoInt.nextInt();
           
+          System.out.println("------------------------------------------");
+              System.out.println("Dni   : " + dni);
+              System.out.println("Nombre: " + nombre);
+              System.out.println("Edad  : " + edad);
+          
           }
           System.out.println("------------------------------------------");
           System.out.println("Fin del Programa!");
