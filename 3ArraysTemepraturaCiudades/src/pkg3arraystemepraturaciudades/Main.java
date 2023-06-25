@@ -11,6 +11,11 @@ public class Main {
         Scanner tecladoNombre = new Scanner(System.in);
         Scanner tecladoTemepeatura = new Scanner(System.in);
         
+       double minimaTemperatura = 99999999.00;
+       double maximaTemperatura = -99999999.00;
+       int posisionMinima = -1;
+       int posisionMaxima = -1;
+        
         System.out.println("-----  CIudades, Maximas y Minimas Temperaturas  -----");
         
         System.out.println("");
@@ -27,18 +32,9 @@ public class Main {
             vectorTemperaturaMaxima[i] = tecladoTemepeatura.nextDouble();
             
             System.out.println("--------------------------------------");
-
-        }
-        
-       //Determinar la minima  y Maxima temperatura:
-       double minimaTemperatura = 99999999.00;
-       double maximaTemperatura = -99999999.00;
-       int posisionMinima = -1;
-       int posisionMaxima = -1;
-       
-        for (int i = 0; i < vectorCiudades.length; i++) 
-        {
             
+           
+              
             //Minima temperatura y posicion
             if (vectorTemperaturaMinima[i] < minimaTemperatura) 
             {
@@ -52,8 +48,33 @@ public class Main {
                 maximaTemperatura = vectorTemperaturaMaxima[i];
                 posisionMaxima = i;
             }
-                               
+
         }
+        
+       //Determinar la minima  y Maxima temperatura:
+//       double minimaTemperatura = 99999999.00;
+//       double maximaTemperatura = -99999999.00;
+//       int posisionMinima = -1;
+//       int posisionMaxima = -1;
+       
+//        for (int i = 0; i < vectorCiudades.length; i++) 
+//        {
+//            
+//            //Minima temperatura y posicion
+//            if (vectorTemperaturaMinima[i] < minimaTemperatura) 
+//            {
+//                minimaTemperatura = vectorTemperaturaMinima[i];
+//                posisionMinima = i;
+//            }
+//            
+//            //Maxima temperatura y Posicion            
+//            if (vectorTemperaturaMaxima[i] > maximaTemperatura) 
+//            {
+//                maximaTemperatura = vectorTemperaturaMaxima[i];
+//                posisionMaxima = i;
+//            }
+//                               
+      //}
         
          
         System.out.println("La ciudad con Temperatura de : " + minimaTemperatura + " Grados Minima  es : " + vectorCiudades[posisionMinima]);
