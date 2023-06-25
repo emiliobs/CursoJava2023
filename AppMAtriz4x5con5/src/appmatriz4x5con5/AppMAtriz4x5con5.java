@@ -18,18 +18,18 @@ public class AppMAtriz4x5con5 {
 
         for (int i = 0; i < numeros.length; i++) 
         {
+            System.out.println("[");
             for (int j = 0; j <= numeros.length; j++)
             {
                 numeros[i][j] = 5;
-                numeros[i][j] = 5;
-                numeros[i][j] = 5;
-                numeros[i][j] = 5;
+               
                 
                System.out.println("Mostrando valos de la matriz en la posicion: " + i + " y " + j + " son: " + numeros[i][j]);
                 
                
             }
             
+            System.out.println("]");
             System.out.println("");
 
         }
