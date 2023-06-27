@@ -140,11 +140,11 @@
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                      <Component id="btnIzquierda" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnAtrras" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
                       <Component id="btnGuardar" min="-2" pref="155" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="92" max="-2" attributes="0"/>
-                      <Component id="btnDerecha" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnBtnAdelante" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="159" max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -175,9 +175,9 @@
                       </Group>
                       <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="btnIzquierda" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnAtrras" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="btnGuardar" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnDerecha" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnBtnAdelante" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -250,7 +250,7 @@
             </Component>
             <Component class="javax.swing.JTextField" name="txtFechaNacimiento">
             </Component>
-            <Component class="javax.swing.JButton" name="btnIzquierda">
+            <Component class="javax.swing.JButton" name="btnAtrras">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI" size="18" style="1"/>
@@ -266,7 +266,7 @@
                 <Property name="text" type="java.lang.String" value="Guardar"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="btnDerecha">
+            <Component class="javax.swing.JButton" name="btnBtnAdelante">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI" size="18" style="1"/>

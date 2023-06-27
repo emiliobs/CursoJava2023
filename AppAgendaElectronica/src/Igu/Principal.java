@@ -44,9 +44,9 @@ public class Principal extends javax.swing.JFrame
         txtTelefono = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
         txtFechaNacimiento = new javax.swing.JTextField();
-        btnIzquierda = new javax.swing.JButton();
+        btnAtrras = new javax.swing.JButton();
         btnGuardar = new javax.swing.JButton();
-        btnDerecha = new javax.swing.JButton();
+        btnBtnAdelante = new javax.swing.JButton();
         jLabel6 = new javax.swing.JLabel();
         txtIndice = new javax.swing.JTextField();
 
@@ -79,14 +79,14 @@ public class Principal extends javax.swing.JFrame
         jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel7.setText("Fecha de Nacimiento:");
 
-        btnIzquierda.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        btnIzquierda.setText("<<");
+        btnAtrras.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        btnAtrras.setText("<<");
 
         btnGuardar.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnGuardar.setText("Guardar");
 
-        btnDerecha.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        btnDerecha.setText(">>");
+        btnBtnAdelante.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        btnBtnAdelante.setText(">>");
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel6.setText("Índice: ");
@@ -135,11 +135,11 @@ public class Principal extends javax.swing.JFrame
                 .addContainerGap(25, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(btnIzquierda)
+                .addComponent(btnAtrras)
                 .addGap(99, 99, 99)
                 .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(92, 92, 92)
-                .addComponent(btnDerecha)
+                .addComponent(btnBtnAdelante)
                 .addGap(159, 159, 159))
         );
         jPanel2Layout.setVerticalGroup(
@@ -165,9 +165,9 @@ public class Principal extends javax.swing.JFrame
                     .addComponent(txtFechaNacimiento, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(54, 54, 54)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnIzquierda)
+                    .addComponent(btnAtrras)
                     .addComponent(btnGuardar)
-                    .addComponent(btnDerecha))
+                    .addComponent(btnBtnAdelante))
                 .addGap(41, 41, 41)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel6)
@@ -258,9 +258,9 @@ public class Principal extends javax.swing.JFrame
 //    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnDerecha;
+    private javax.swing.JButton btnAtrras;
+    private javax.swing.JButton btnBtnAdelante;
     private javax.swing.JButton btnGuardar;
-    private javax.swing.JButton btnIzquierda;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
